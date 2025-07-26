@@ -177,6 +177,41 @@ Always wrap scanner operations in try-catch blocks for production use.
 npm test
 ```
 
+## GitHub Actions
+
+This repository includes GitHub Actions workflows for automated testing and publishing:
+
+### CI Workflow
+- Runs on every push and pull request
+- Executes linting and tests
+- Ensures code quality before merging
+
+### Publish Workflow
+- Automatically publishes to npm when a new GitHub release is created
+- Runs tests and linting before publishing
+- Requires `NPM_TOKEN` secret to be configured
+
+### Manual Publish Workflow
+- Allows manual triggering of npm publishing
+- Can be used to publish specific versions
+- Available in the Actions tab of the repository
+
+### Setup for npm Publishing
+
+1. Create an npm access token:
+   - Go to https://www.npmjs.com/settings/tokens
+   - Create a new token with "Automation" type
+   - Copy the token
+
+2. Add the token to GitHub repository secrets:
+   - Go to your repository Settings → Secrets and variables → Actions
+   - Create a new secret named `NPM_TOKEN`
+   - Paste your npm access token
+
+3. Publish your first version:
+   - Create a new GitHub release, or
+   - Use the Manual Publish workflow from the Actions tab
+
 ## License
 
 MIT
