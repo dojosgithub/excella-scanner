@@ -98,6 +98,22 @@ Causes the scanner to read the current ID and return the image information.
 
 **Throws:** `Error` if the scan operation fails
 
+##### `readStatus()`
+Reads the current status of the scanner device.
+
+**Returns:** Promise that resolves to an object with device status information including:
+- `AccessGuide` (string) - Access guide status
+- `AutoFeeder` (string) - Auto feeder status  
+- `Ink` (string) - Ink status
+- `Lamp1` (string) - Lamp 1 status
+- `Lamp2` (string) - Lamp 2 status
+- `ManualFeeder` (string) - Manual feeder status
+- `Path` (string) - Path status
+- `Printer` (string) - Printer status
+- `State` (string) - Overall device state
+
+**Throws:** `Error` if the status read operation fails
+
 ##### `readImage(imagePath)`
 Retrieves an image from the scanner by its path.
 
@@ -129,6 +145,13 @@ const data = await scanner.readCheck(true);
 const scanner = new Scanner('192.168.1.23');
 const data = await scanner.readID(true);
 // data.imagedata contains the ID image as a Buffer
+```
+
+### Scanner Status
+```javascript
+const scanner = new Scanner('192.168.1.23');
+const status = await scanner.readStatus();
+console.log(`Scanner state: ${status.State}, Ink: ${status.Ink}`);
 ```
 
 ### Custom Configuration

@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/excella-scanner.git"
+    "url": "https://github.com/dojosgithub/excella-scanner.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/excella-scanner/issues"
+    "url": "https://github.com/dojosgithub/excella-scanner/issues"
   },
-  "homepage": "https://github.com/yourusername/excella-scanner#readme",
+  "homepage": "https://github.com/dojosgithub/excella-scanner#readme",
   "engines": {
     "node": ">=14.0.0"
   },
