@@ -1,0 +1,26 @@
+<?xml version=""1.0""?>
+<DeviceSettings>
+    <ImageOptions>
+        <Number>1</Number>
+        <ImageColor1>COL24</ImageColor1>
+        <FileType1>JPG</FileType1>
+        <Resolution1>200x200</Resolution1>
+        <Compression1>JPEG</Compression1>
+        <ImageSide1>FRONT</ImageSide1>
+    </ImageOptions>
+    <Application>
+        <DocUnits>ENGLISH</DocUnits>
+        <Transfer>HTTP</Transfer>
+    </Application>
+    <Endorser>
+        <PrintFont>INTFONT2</PrintFont>
+        <PrintData>foo &amp;bar &lt;bletch&gt;</PrintData>
+    </Endorser>
+    <ProcessOptions>
+        <MICRFmtCode>0</MICRFmtCode>
+        <DocFeed>ID</DocFeed>
+        <DocFeedTimeout>20000</DocFeedTimeout>
+        <Endorse>NO</Endorse>
+        <ReadMICR>E13B</ReadMICR>
+    </ProcessOptions>
+</DeviceSettings>

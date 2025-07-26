@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceInformation>
+  <DeviceStatus>
+    <AccessGuide>LATCHED</AccessGuide>
+    <AutoFeeder>EMPTY</AutoFeeder>
+    <Ink>OK</Ink>
+    <Lamp1>OK</Lamp1>
+    <Lamp2>OK</Lamp2>
+    <ManualFeeder>EMPTY</ManualFeeder>
+    <Path>OK</Path>
+    <Printer>NONE</Printer>
+    <State>ONLINE</State>
+  </DeviceStatus>
+</DeviceInformation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceInformation>
+  <CommandStatus>
+    <BadData>NONE</BadData>
+    <CheckDS>F</CheckDS>
+    <KVErrCnt>0</KVErrCnt>
+    <ResponseType>CHECK</ResponseType>
+    <ReturnCode>0</ReturnCode>
+    <ReturnMsg>OK</ReturnMsg>
+  </CommandStatus>
+  <DeviceStatus>
+    <AccessGuide>LATCHED</AccessGuide>
+    <AutoFeeder>NOTSUP</AutoFeeder>
+    <FrontInk>NOTSUP</FrontInk>
+    <FrontPrinter>NONE</FrontPrinter>
+    <IDFeeder>EMPTY</IDFeeder>
+    <Ink>NOTSUP</Ink>
+    <LED1>NNNN</LED1>
+    <LED2>GGGG</LED2>
+    <LED3>NNNN</LED3>
+    <Lamp1>OK</Lamp1>
+    <Lamp2>OK</Lamp2>
+    <ManualFeeder>EMPTY</ManualFeeder>
+    <Path>OK</Path>
+    <Printer>NONE</Printer>
+    <RTCBattery>OK</RTCBattery>
+    <RawSensors>3072</RawSensors>
+    <ScanCalibStatus>FACTORY</ScanCalibStatus>
+    <SnsrCalibStatus>FACTORY</SnsrCalibStatus>
+    <StartTimeout>4000</StartTimeout>
+    <State>ONLINE</State>
+  </DeviceStatus>
+  <DocInfo>
+    <DocHeight>3510</DocHeight>
+    <DocUnits>ENGLISH</DocUnits>
+    <DocWidth>8480</DocWidth>
+    <MICRAcct>329 975 3808</MICRAcct>
+    <MICRAmt></MICRAmt>
+    <MICRAux>0049424770</MICRAux>
+    <MICRBankNum>1278</MICRBankNum>
+    <MICRChkType>BUSINESS</MICRChkType>
+    <MICRCountry>USA</MICRCountry>
+    <MICRDecode>OK</MICRDecode>
+    <MICREPC></MICREPC>
+    <MICRFont>E13B</MICRFont>
+    <MICROnUs> 329 975 3808U</MICROnUs>
+    <MICROut>U0049424770U T061112788T 329 975 3808U</MICROut>
+    <MICRParseSts0>0100</MICRParseSts0>
+    <MICRParseSts1>11</MICRParseSts1>
+    <MICRRaw>U0049424770U T061112788T 329 975 3808U</MICRRaw>
+    <MICRSerNum>0049424770</MICRSerNum>
+    <MICRTPC></MICRTPC>
+    <MICRTransit>061112788</MICRTransit>
+  </DocInfo>
+  <ImageInfo>
+    <ImageSHA1Key1>NONE</ImageSHA1Key1>
+    <ImageSHA1Key2>NONE</ImageSHA1Key2>
+    <ImageSize1>66304</ImageSize1>
+    <ImageSize2>34996</ImageSize2>
+    <ImageURL1>/chkimg/FRONT100COL24_1.JPG</ImageURL1>
+    <ImageURL2>/chkimg/BACK100COL24_2.JPG</ImageURL2>
+    <Number>2</Number>
+  </ImageInfo>
+</DeviceInformation>

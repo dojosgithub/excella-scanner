@@ -1,0 +1,44 @@
+{
+  "name": "excella-scanner",
+  "version": "1.0.0",
+  "description": "Node.js support for MagTek's Excella STX check scanner",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "prepublishOnly": "npm run lint:check && npm test"
+  },
+  "keywords": [
+    "scanner",
+    "check",
+    "magtek",
+    "excella",
+    "stx",
+    "micr",
+    "check-processing",
+    "financial",
+    "banking"
+  ],
+  "author": "Felipe Polo-Wood",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/excella-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/excella-scanner/issues"
+  },
+  "homepage": "https://github.com/yourusername/excella-scanner#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "mocha": "^10.2.0",
+    "mock-http-server": "^1.4.5"
+  },
+  "dependencies": {
+    "xml2js": "^0.5.0"
+  }
+}
